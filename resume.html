@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ritik Kumar</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Soft white background */
+    margin: 10px; /* Small margin inside the resume */
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for container */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+}
+
+.header {
+    background-color: rgba(176, 251, 237, 0.129); /* Very light white with 95% opacity */
+    color: #333;
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center;
+}
+
+.header h1, .header h2, .header p {
+    margin: 5px 0;
+    font-size: 18px; /* Increased font size for header content */
+}
+
+.logo {
+    margin-left: auto;
+    order: 2;
+}
+
+.logo img {
+    max-height: 100%;
+    order: 2;
+}
+
+.main-content {
+    padding-top: 4;
+    padding: 9px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #87CEEB, #00BFFF); /* Gradient colors from corners to center */
+    color: white; /* Text color */
+    text-align: center;
+    position: relative;
+}
+
+.section-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #87CEEB, #00BFFF); /* Same gradient as background */
+    border-radius: inherit;
+    z-index: -1;
+}
+
+
+.section-content {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-content p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #3498db; /* Light blue */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.academic-credentials {
+    margin-left: 20px;
+}
+
+.professional-enhancements .details {
+    margin-left: 20px;
+}
+
+.projects .details {
+    margin-left: 20px;
+}
+
+.skills .details {
+    margin-left: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 10px;
+    background-color: #00a2ff4a; /* Light grey */
+    color: #30001e;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.skills li:last-child {
+    margin-right: 0;
+}
+
+/* Horizontal ruler styles */
+.hr-divider {
+    border: 0;
+    height: 9px; /* Increase height for better visibility */
+    background-color: #18abef60; /* White color for horizontal ruler */
+}
+
+/* Creative styles */
+.decorative-line {
+    position: absolute;
+    top: -12px;
+    left: -22px; 
+    width: 100%;
+    height: 20px;
+    background-color: #3498db;
+    transform: skewY(-3deg);
+    z-index: 1;
+}
+
+.decorative-line-bottom {
+    position: absolute;
+    bottom: -12px;
+    left: -12px;
+    width: 100%;
+    height: 20px;
+    background-color: #3498db;
+    transform: skewY(-3deg);
+    z-index: 1;
+}
+
+strong {
+        font-weight: 700;
+        color: #007bff;
+    }
+
+em {
+    font-style: italic;
+       color: #dc3545;
+}
+
+em.academic {
+    color: #333; font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 4px;
+}
+
+.highlight {
+background-color: #ffeeba;
+padding: 5px;
+border-radius: 5px;
+font-weight: 700;
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .social-links a {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    .section-content p {
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="decorative-line"></div>
+    <div class="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/6c/Chhattisgarh_Swami_Vivekanand_Technical_University_transparent_logo.png" alt="Institute Logo">
+        </div>
+        <div>
+            <h1 style="font-size: 22px;">Ritik Kumar</h1>
+            <h2>B. Tech. CSE(HONS.) Data Science 6th Semester</h2>
+            <p><em style="color: #555;"><b>University Teacing Department, Chhattisgarh Swami Vivekanand Technical University, Bhilai, C.G.</b></em></p>
+            <div class="social-links">
+                <p><i class="fas fa-phone-alt"></i> <a href="">+91 9334623398</a></p>
+                <p><i class="far fa-envelope"></i> <a href="mailto:ritik9802official@gmail.com">ritik9802official@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ritik-kumar-886a1422b/">https://www.linkedin.com/in/ritik-kumar-886a1422b</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/Ritik-912/">https://github.com/Ritik-912</a></p>
+                <p><i class="fas fa-briefcase"></i> <a href="https://legalbot.my.canva.site/myresumeportfolio">https://legalbot.my.canva.site/myresumeportfolio</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="decorative-line-bottom"></div>
+    <hr class="hr-divider">
+
+    <div class="main-content">
+        <div class="section-content">
+            <p style="margin: 0; font-size: 18px; font-weight: 400; line-height: 1.5; color: #444;">
+            Dedicated <strong>data scientist</strong> and <strong>AI enthusiast</strong> with a track record of academic excellence. Skilled in code debugging and known for punctuality, strong leadership, and a <span class="highlight">commitment to delivering exceptional work.</span>
+            </p>
+        </div>
+
+        <div class="section-content">
+            <h3 class="section-title">Academic Credentials</h3>
+            <ul class="academic-credentials">
+                <li>5th Semester:  <em class="academic">SPI: 7.43/10</em> <em class="academic">Marks: 692/1000</em></li>
+                <li>4th Semester:  <em class="academic">SPI: 7.71/10</em> <em class="academic">Marks: 721/1000</em></li>
+                <li>3rd Semester:  <em class="academic">SPI: 9/10</em> <em class="academic">Marks: 848/1000</em></li>
+                <li>2nd Semester:  <em class="academic">SPI: 9.29/10</em> <em class="academic">Marks: 887/1000</em></li>
+                <li>1st Semester:  <em class="academic">SPI: 8.67/10</em> <em class="academic">Marks: 812/1000</em></li>
+                <li>Higher Secondary:  <em class="academic">Loyola High School, Kurji, Patna, Bihar</em> <em class="academic">Marks: 88%</em></li>
+                <li>Secondary: <em class="academic">Gyanodaya Gurukul, West Bailey Road, Danapur, Patna, Bihar</em> <em class="academic">Marks: 84%</em></li>
+            </ul>
+        </div>
+
+        <div class="section-content professional-enhancements">
+            <h3 class="section-title">Professional Enhancements</h3>
+            <div class="details">
+                <p style="margin: 0; font-size: 18px; font-weight: 400; line-height: 1.5; color: #444; margin-bottom: -2%;"><b>Certifications and Courses:</b></p>
+                <ul>
+                    <li><a style="text-decoration: none; color: #0022ff;" href="https://www.guvi.in/verify-certificate?id=y656298M1E2LlBF1Q9&course=ai_for_in_en">AI for INDIA 2.0 GUVI Geek Networks, IITM Research Park | August 2023</a></li>
+                    <li><a style="text-decoration: none; color: #0022ff;" href="https://www.freecodecamp.org/certification/ritik912129/data-analysis-with-python-v7">Data Analysis with Python, freecodecamp.org | August 2023</a></li>
+                    <li><a style="text-decoration: none; color: #0022ff;" href="https://www.udemy.com/certificate/UC-b1a94555-8938-45fe-8c2f-4ace15e9db37/">Full StackWeb Development with ReactJS, Angular and NodeJS, Udemy | August 2023</a></li>
+                    <li><a style="text-decoration: none; color: #0022ff;" href="https://drive.google.com/file/d/1CjKhfU5mxtl8P-RH4zVRn93l163n8zGP/view?usp=sharing">Android Development, Centre for Skill Development and Informal Education, Chhattisgarh Swami Vivekanand technical University, Bhilai C.G. | September 2022</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-content projects">
+            <h3 class="section-title">Projects</h3>
+            <div class="details">
+                <ol type="A">
+                    <li><div style="display: flex; justify-content: space-between;"><strong>Text2Speech Model based on sentiment of text</strong> 2024</div>
+                    <p>Task Assigned by Supervisor under ongoing Internship: <ul><li>Collected audio dataset with emotions, preprocessed</li>
+                    <li>Sentiment analysis of text using OpenAI API</li><li>Given Reference audio based on classified sentiment</li>
+                    <li>Two models implemented: WHisperSpeech by openai and TTS by coqui-ai</li></ul></p>
+                    </li> <hr class="hr-divider">
+
+                    <li><div style="display: flex; justify-content: space-between;"><strong>Financial Fraud Detection notebook <a href="https://github.com/Ritik-912/Fraud-Detection"><i class="fab fa-github"></i></a></strong> 2024</div>
+                    <p>Task Assignment of Internship Application by Insaid Company: <ul><li>The dataset of transaction provided by Insaid used to train Random Forest and Desicion Tree Classifier</li></ul></p>
+                    </li> <hr class="hr-divider">
+
+                    <li><div style="display: flex; justify-content: space-between;"><strong>AI Based Legal Word Document Assistant <a href="https://github.com/Ritik-912/AI-legal-word-document-assistant"><i class="fab fa-github"></i></a></strong> 2023</div>
+                    <p>Minor Project 5th Semester: <ul><li>Answers Legal  queries
+                    </li><li>Works on embedding query search model</li></ul></p>
+                    </li> <hr class="hr-divider">
+
+                    <li><div style="display: flex; justify-content: space-between;"><strong>Online React Based Code Editor</strong> 2023</div>
+                    <p>Vocational Training Project 4th Semester: <ul><li>Compile simple codes of  programming languages</li></ul></p>
+                    </li> <hr class="hr-divider">
+
+                    <li><div style="display: flex; justify-content: space-between;"><strong>Timetable Generator <a href="https://github.com/Dubeyshruti/TimeTable-Generator-"><i class="fab fa-github"></i></a></strong> 2023</div>
+                    <p>Independent Project 3rd Semester: <ul><li>Pyhton GUI for generating timetables for educational institutions</li></ul></p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="section-content skills">
+            <h3 class="section-title">Skills and Extramural Engagement</h3>
+            <table>
+                <tr>
+                    <td>
+                        <h4>Volunteering</h4>
+                    </td>
+                    <td><ul>
+                        <li>Technical support team in many functions</li>
+                        <li>IEEE Student Branch inauguration team</li>
+                        <li>Vice President TPO Cell</li>
+                        <li>Vice President Literature Club</li>
+                        <li>Editor and Designer Newsletter UTD CSVTU</li></ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Languages</h4>
+                    </td>
+                    <td><ul>
+                        <li>Hindi</li>
+                        <li>English</li>   
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td><h4>Programming Languages</h4></td>
+                    <td><ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>R</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td><h4>Version Control</h4></td>
+                    <td><ul><li>Git</li></ul></td>
+                </tr>
+                <tr>
+                    <td><h4>Data Science</h4></td>
+                    <td><ul>
+                        <li>Machine Learning</li>
+                        <li>Natural Language Processing</li>
+                        <li>Data Visualization</li>
+                        <li>Data Analysis</li>
+                    </ul></td>
+                </tr>
+            </table>
+        </div>        
+    </div>
+</div>
+</body>
+</html>

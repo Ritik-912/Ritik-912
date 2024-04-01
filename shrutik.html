@@ -1,0 +1,78 @@
+<!DOCTYPE html><html><head><title>shrutik</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">  
+<style>
+  * {margin: 0; padding: 0; box-sizing: border-box;}
+  body {font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f3f3f3;}
+  header {height: 200px; display: flex; justify-content: center; align-items: center;/* background: linear-gradient(to top, #150c0c, #66666600);*/ position: relative; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); background:conic-gradient(from 180deg, rgb(0, 0, 0), rgba(0, 200, 255, 0.326), rgba(255, 255, 255, 0)), rgba(251, 255, 0, 0.216);}
+  .shape {position: absolute; border-radius: 50%; animation-duration: 4s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+  .shape1 {width: 22px; height: 22px; top: 5%; left: 5%; background: radial-gradient(circle, #ff6384, #f06292); animation-name: spin;}
+  .shape2 {width: 44px; height: 44px; bottom: 5%; right: 5%; background: radial-gradient(circle, #ffb74d, #ff9800); animation-name: spinReverse;}
+  .shape3 {width: 90px; height: 90px; top: 40%; left: 40%; background: linear-gradient(to right, #005295, #3697f789); clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); animation-name: rotate;}
+  .shape4 {width: 88px; height: 88px; bottom: 35%; right: 35%; background: linear-gradient(to top, #66bb6a, #4caf50); clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%); animation-name: bounce;}
+  .shape5 {width: 22px; height: 22px; top: 30%; right: 20%; background: linear-gradient(to top left, #ff8a80, #ff5252); border-radius: 50%; animation-name: pulse;}
+  .shape6 {width: 22px; height: 22px; bottom: 30%; left: 20%; background: #ffee58; clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); animation-name: rotateReverse;}
+  .shape7 {width: 12px; height: 12px; bottom: 10%; right: 30%; border-radius: 50%; background: linear-gradient(-45deg, #9575cd, #7e57c2, #673ab7); animation-name: spinSlow;}
+  .shape8 {width: 22px; height: 22px; top: 25%; left: 25%; background: linear-gradient(to bottom right, #ffd700, #fbc02d); border-radius: 50%; animation-name: rotateScale;}
+  .shape9 {width: 12px; height: 12px; bottom: 15%; left: 15%; background: linear-gradient(to bottom, #00e676, #00c853); border-radius: 50%; animation-name: rotateSpin;}
+  .shape10 {width: 90px; height: 44px; top: 15%; left: 30%; background: linear-gradient(to bottom right, #ffd700, #fbc02d); clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 20% 100%); animation-name: rotate;}
+  .shape11 {width: 80px; height: 150px; bottom: 10%; left: 10%; background: linear-gradient(to bottom, #00e676, #00c853); clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); animation-name: spinReverse;}
+  .names {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); text-align: center; font-family: 'Arial Black', sans-serif;}
+  .names h1 {margin-bottom: 5px; font-size: 44px; font-weight: bold; color: #ffffff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); cursor: pointer;}
+  .names h1:hover {animation: slide-down 0.5s ease; color: #fff200;}
+  @keyframes spin {from { transform: rotate(0deg); } to { transform: rotate(360deg); }}  @keyframes spinReverse {from { transform: rotate(360deg); } to { transform: rotate(0deg); }}  @keyframes rotate {from { transform: rotate(0deg); } to { transform: rotate(360deg); }}
+  @keyframes bounce {0%, 100% { transform: translateY(0); } 50% { transform: translateY(-30px); }}  @keyframes pulse {from { transform: scale(1); } to { transform: scale(1.1); }}  @keyframes rotateReverse {from { transform: rotate(0deg); } to { transform: rotate(360deg); }}
+  @keyframes spinSlow {from { transform: rotate(0deg); } to { transform: rotate(360deg); }}  @keyframes rotateScale {from { transform: rotate(0deg) scale(1); } to { transform: rotate(360deg) scale(1.2); }}  @keyframes rotateSpin {from { transform: rotate(0deg); } to { transform: rotate(360deg); }}
+  #about {background: conic-gradient(from -44deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.09)); padding: 22px 12px;}
+  .about-content {max-width: 1000px; margin: 0 auto; text-align: center;}  .about-content h2 {font-size: 31px; font-weight: 600; margin-bottom: 30px;} .about-content h2:hover {animation: slide-down 0.5s ease;}
+  @keyframes slide-down {from {transform: translateY(-20px); opacity: 0;} to {transform: translateY(0); opacity: 1;}}  .about-content p {font-size: 18px; line-height: 1.5; color: #0d013a; opacity: 0; animation: fade-in 0.5s 0.5s ease forwards;} @keyframes fade-in {to {opacity: 1;}}
+  .about-content p:first-of-type {margin-bottom: 30px;}  .about-content p:hover {transform: scale(1.02); transition: transform 0.3s;}  @media (max-width: 768px) {#about {padding: 40px 0;}}
+  .social-links {display: flex; justify-content: center; margin: 20px 0; background: linear-gradient(to right, #2c3e50, #3498db); padding: 10px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);}
+  .social-links ul {list-style: none; display: flex; align-items: center; justify-content: center; flex: 1 1 auto;}  .social-links a {width: 40px; height: 40px; margin: 0 10px; border-radius: 50%; background: #fff; color: #000000; display: flex; align-items: center; justify-content: center; transition: all 0.3s; text-decoration: none;}
+  .social-links a:hover {background: #eee;}  .social-links i {font-size: 20px;}  #projects {padding: 80px 0; background: #b0d0ff47;}  #projects h2 {text-align: center; margin-bottom: 40px;}
+  .project-grid {max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr;  gap: 30px;}  .project {border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background: rgba(170, 108, 180, 0.171); padding: 20px; margin: 10px;}
+  .project h3 {color: #1a202c;}  .project p {font-size: 18px; color: #172336;}  @media (max-width: 800px) {.project-grid {grid-template-columns: 1fr;}}  @media (max-width: 500px) {#projects {padding: 40px 20px;} #projects h2 {font-size: 28px;} .project {padding: 10px;} .project h3 {font-size: 20px;} .project p {font-size: 16px;}}
+  .subscribe-support {display: flex; flex-direction: column; align-items: center;  margin: 40px 0;} .subscribe-support iframe {border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;}
+  .subscribe-support a {background: #f472d0; color: white; text-decoration: none; padding: 10px 20px; border-radius: 4px; font-size: 18px; transition: background 0.3s;} .subscribe-support a:hover {background: #d946ef;} .subscribe-support img {margin-top: 20px; border-radius: 4px; transition: transform 0.3s;} .subscribe-support img:hover {transform: scale(1.1);}
+  footer {background: #14213396; color: #fff; padding: 80px 0;} .footer-container {max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap;} .footer-box {display: flex; justify-content: space-between; flex-grow: 1;} .services, .contact-form {flex-grow: 1;  margin-bottom: 30px;} .services h4, .contact-form h4 {font-size: 18px; color: #fff; margin-bottom: 15px;}
+  .services ul {list-style: none; padding: 0;} .services ul li {margin-bottom: 10px;} .services ul li:hover {color: #06ff87; font-size: larger;} .contact-form {overflow: hidden;} .contact-form iframe {width: 100%; border: none;} .copyright {width: 100%; text-align: center; background-color: #1a202c; box-shadow: 0 -5px 10px rgba(0,0,0,0.1); border-top: 2px solid #2d3748; padding: 20px;}
+  </style></head>
+<body>
+  <header><div class="shape shape1"></div><div class="shape shape2"></div><div class="shape shape3"></div><div class="shape shape4"></div><div class="shape shape5"></div><div class="shape shape6"></div><div class="shape shape7"></div><div class="shape shape8"></div><div class="shape shape9"></div><div class="shape shape10"></div><div class="shape shape11"></div>
+    <div class="names"><h1>Shruti Dubey</h1><h1>Ritik Kumar</h1></div>
+  </header>
+  <section id="about"><div class="about-content"><h2>About Us</h2><p>We are enthusiasts of data science specializing in AI, NLP, ML app and web development, graphic designing, and technical consultancy. We are working on advanced financial NLP projects and graphic designing.</p>
+    <p>We are looking forward to collaborating with potential clients to grow their organization by including personalized AI applications in their businesses. Using open source technologies in businesses is also boosting the open source community.</p></div>
+  </section>  
+  <div class="social-links">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/shruti-dubey-58aa2722b/"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/Dubeyshruti"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://twitter.com/shruti82722839"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/shrutidubeyey/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.threads.net/@shrutidubeyey"><i class="fa-brands fa-threads"></i></a></li>
+      <li><a href="https://www.youtube.com/@theswanbells6138"><i class="fab fa-youtube"></i></a></li>
+      <li><a href="https://discord.com/invite/shruti3773"><i class="fab fa-discord"></i></a></li>
+      <li><a href="https://glimpseofmywork.my.canva.site/myworkportfolio"><i class="fa fa-briefcase"></i></a></li>
+    </ul>
+  </div>
+  <div class="social-links">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/ritik-kumar-886a1422b/"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/Ritik-912/"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://twitter.com/RITIK9802"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/ritik22912/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.threads.net/@ritik22912"><i class="fa-brands fa-threads"></i></a></li>
+      <li><a href="https://www.youtube.com/@ritik22912"><i class="fab fa-youtube"></i></a></li>
+      <li><a href="https://discord.com/invite/__r_tik"><i class="fab fa-discord"></i></a></li>
+      <li><a href="https://glimpseofmywork.my.canva.site/myworkportfolio"><i class="fa fa-briefcase"></i></a></li>
+    </ul>
+  </div>
+  <section id="projects"><h2>Our Resume</h2><div class="project-grid">
+    <div class="project"><h3>Shruti Dubey</h3><iframe src="https://ritik-912.github.io/Ritik-912/Shruti_resume.html" width="100%"></iframe><p><a style="text-decoration: none; color: #000000;" href="https://ritik-912.github.io/Ritik-912/Shruti_resume.html">Managing Director shrutik</a></p></div>
+    <div class="project"><h3>Ritik</h3><iframe src="https://ritik-912.github.io/Ritik-912/resume.html" width="100%"></iframe><p><a style="text-decoration: none; color: #000000;" href="https://ritik-912.github.io/Ritik-912/resume.html">Chief Executive Officer shrutik</a></p></div></div>
+  </section>
+  <div class="subscribe-support"><iframe width="560" height="315" src="https://www.youtube.com/embed/9C_EdkSErJ8?si=cgUoo-aaZ1079Yjc" frameborder="0" allowfullscreen></iframe><a href="https://www.youtube.com/@theswanbells6138">Subscribe to our YouTube Channel</a><br><a href="https://www.buymeacoffee.com/shrutidubeyey"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buymeacoffee.com/shrutidubeyey" /></a></div>
+  <footer><div class="footer-container"><div class="footer-box">
+    <div class="services"><h4>Our Services</h4><ul><li>Software Development (Website & Application)</li><li>Machine Learning Deployment for Own Data</li><li>Large Language Model Integration</li><li>Data & Business Analyitics for Consultancy</li><li>Graphic Designing</li></ul></div>
+    <div class="contact-form"><h4>Contact Us</h4><p>Fill out the form below to get in touch:</p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUkPti1K58SOU4DakwHy57grYhoEHPqbnZQv3h8fZUC_0Gqw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div></div>
+    <div class="copyright"><p>&copy; 2024 shrutik. All rights reserved.</p></div></div>
+  </footer></body></html>

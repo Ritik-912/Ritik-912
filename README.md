@@ -25,4 +25,4 @@
 - Graphic Designing
 
 ---
-&copy; 2024 shrutik. All rights reserved.
+&copy; 2024 shruti ritik. All rights reserved.

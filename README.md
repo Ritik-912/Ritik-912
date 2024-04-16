@@ -23,5 +23,6 @@
 - Large Language Model Integration
 - Data & Business Analytics for Consultancy
 - Graphic Designing
+
 ---
 &copy; 2024 shrutik. All rights reserved.

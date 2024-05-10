@@ -27,7 +27,7 @@ The leveraging of open source technologies to enhance the financial and legal do
 [![Instagram: ritik22912](https://img.shields.io/badge/-@ritik22912-purple?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/ritik22912/)](https://www.instagram.com/ritik22912/)
 [![Threads: ritik22912](https://img.shields.io/badge/-ritik22912-red?style=flat-square&logo=threads&logoColor=white&link=https://www.threads.net/@ritik22912)](https://www.threads.net/@ritik22912)
 [![Canva Portfolio: ritik](https://img.shields.io/badge/Canva_site-Portfolio-pink?style=flat-square&logo=Canva&logoColor=white&link=https://glimpseofmywork.my.canva.site/myworkportfolio)](https://glimpseofmywork.my.canva.site/myworkportfolio)
-[![Google Developers profile: ritik2912](https://img.shields.io/badge/⭐%20g.dev/ritik22912/Subscribe-red)](https://g.dev/ritik22912)
+[![Google Developers profile: ritik2912](https://img.shields.io/badge/⭐%20g.dev/ritik22912-red)](https://g.dev/ritik22912)
 [![YouTube Channel: @ritik22912](https://img.shields.io/badge/ritik22912-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/ritik22912)
 [![HackerRank](https://img.shields.io/badge/-ritik9802official-grey?style=for-the-badge&logo=hackerrank)](https://www.hackerrank.com/profile/ritik9802offici1)
 [![CodeChef](https://img.shields.io/badge/-ritik912129-purple?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/ritik912129)

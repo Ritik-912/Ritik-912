@@ -1,9 +1,6 @@
 ## Data Scientist & AI Enthusiast 🤖
-<div style="display: flex; justify-content: space-between; align-items: center">
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmozMnV3ZGxlN25kcHd1bjcyOWVreGswNnZ0ZWhibjgwdjdjNmx4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9C25UNTwfZuk85WP/giphy-downsized.gif" alt="Data Data GIF" style="width: 90%">
-  <img src="https://media.giphy.com/media/NU4il2utBo5Lq/giphy.gif" alt="Arrow GIF" style="width: 60%; margin: 22%">
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2I5YmttZ3ZmbnV4M285Ym8wNmw2OGhxeTZoMHc0eHcwcXA0ZzMycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jakQnxhPwrbOdEZDul/giphy.gif" alt="Data" style="width: 50%;">
-</div>
+
+![Data GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2I5YmttZ3ZmbnV4M285Ym8wNmw2OGhxeTZoMHc0eHcwcXA0ZzMycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jakQnxhPwrbOdEZDul/giphy.gif)
 
 #
 
@@ -37,3 +34,4 @@ The leveraging of open source technologies to enhance the financial and legal do
 [![GeeksforGeeks](https://img.shields.io/badge/-ritik9802official-black?style=for-the-badge&logo=geeksforgeeks)](https://www.geeksforgeeks.org/user/ritik9802official/)
 
 <a href="https://www.buymeacoffee.com/shrutidubeyey"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buymeacoffee.com/shrutidubeyey" /></a>
+![Data Data Everywhere GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmozMnV3ZGxlN25kcHd1bjcyOWVreGswNnZ0ZWhibjgwdjdjNmx4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9C25UNTwfZuk85WP/giphy-downsized.gif)

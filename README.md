@@ -32,6 +32,7 @@ The leveraging of open source technologies to enhance the financial and legal do
 [![HackerRank](https://img.shields.io/badge/-ritik9802official-grey?style=for-the-badge&logo=hackerrank)](https://www.hackerrank.com/profile/ritik9802offici1)
 [![CodeChef](https://img.shields.io/badge/-ritik912129-purple?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/ritik912129)
 [![GeeksforGeeks](https://img.shields.io/badge/-ritik9802official-black?style=for-the-badge&logo=geeksforgeeks)](https://www.geeksforgeeks.org/user/ritik9802official/)
+[![LeetCode](https://img.shields.io/badge/leetcode-ritik9802official-brown)](https://leetcode.com/u/ritik9802official/)
 
 <a href="https://www.buymeacoffee.com/shrutidubeyey"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buymeacoffee.com/shrutidubeyey" /></a>
 ![Data Data Everywhere GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmozMnV3ZGxlN25kcHd1bjcyOWVreGswNnZ0ZWhibjgwdjdjNmx4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9C25UNTwfZuk85WP/giphy-downsized.gif)

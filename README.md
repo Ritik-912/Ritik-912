@@ -12,12 +12,12 @@ A passionate **Data Scientist** and ***LLM Expert*** with a strong interest in *
 - [![Amazon Product Report Maker](https://img.shields.io/badge/Amazon%20Product%20Research_Report_Generator-orange)](https://github.com/shruti-ritik/amazon-product-report-maker)
 - [![Fraud Detection Machine Learning model](https://img.shields.io/badge/Fraud_Detection_Notebook-yellow)](https://github.com/Ritik-912/Fraud-Detection)
 - [![Ai Legal Assistant](https://img.shields.io/badge/AI_Legal-Assistant-blue)](https://github.com/shruti-ritik/AI-legal-word-document-assistant)
-- [![Time Table generator](https://img.shields.io/badge/Time_Table-Generator-green)](https://github.com/Dubeyshruti/TimeTable-Generator-)
+- [![Time Table generator](https://img.shields.io/badge/Time_Table-Generator-green)](https://github.com/Ritik-912/TimeTable-Generator)
 
 # [![Resume📄](https://img.shields.io/badge/Curriculum_Vitae_%20📄-8A2BE2)](https://ritik-912.github.io/Ritik-912/resume.html)
 
 ## 📚💫
-The leveraging of open source technologies to enhance the financial and legal domains using Data Science and AI, along with my team, is observed. My organization's portfolio can be viewed here: [![@shruti-ritik](https://img.shields.io/badge/shruti--ritik-AA2CE2)](https://shruti-ritik.github.io/shruti-ritik/)
+The leveraging of open source technologies to enhance the financial and legal domains using Data Science and AI is currently I am focused on.
 
 ## 🤝
 [![Kaggle](https://img.shields.io/badge/-ritikkumar2212-white?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/ritikkumar2212)
@@ -26,7 +26,7 @@ The leveraging of open source technologies to enhance the financial and legal do
 [![Twitter: RITIK9802](https://img.shields.io/twitter/follow/RITIK9802?style=social)](https://twitter.com/RITIK9802)
 [![Instagram: ritik22912](https://img.shields.io/badge/-@ritik22912-purple?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/ritik22912/)](https://www.instagram.com/ritik22912/)
 [![Threads: ritik22912](https://img.shields.io/badge/-ritik22912-red?style=flat-square&logo=threads&logoColor=white&link=https://www.threads.net/@ritik22912)](https://www.threads.net/@ritik22912)
-[![Canva Portfolio: ritik](https://img.shields.io/badge/Canva_site-Portfolio-pink?style=flat-square&logo=Canva&logoColor=white&link=https://glimpseofmywork.my.canva.site/myworkportfolio)](https://glimpseofmywork.my.canva.site/myworkportfolio)
+[![Canva Portfolio: ritik](https://img.shields.io/badge/Canva_site-Portfolio-pink?style=flat-square&logo=Canva&logoColor=white&link=https://glimpseofmywork.my.canva.site/myworkportfolio)](https://legalbot.my.canva.site/myresumeportfolio)
 [![Google Developers profile: ritik2912](https://img.shields.io/badge/⭐%20g.dev/ritik22912-red)](https://g.dev/ritik22912)
 [![YouTube Channel: @ritik22912](https://img.shields.io/badge/ritik22912-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/ritik22912)
 [![HackerRank](https://img.shields.io/badge/-ritik9802official-grey?style=for-the-badge&logo=hackerrank)](https://www.hackerrank.com/profile/ritik9802offici1)
@@ -34,5 +34,4 @@ The leveraging of open source technologies to enhance the financial and legal do
 [![GeeksforGeeks](https://img.shields.io/badge/-ritik9802official-black?style=for-the-badge&logo=geeksforgeeks)](https://www.geeksforgeeks.org/user/ritik9802official/)
 [![LeetCode](https://img.shields.io/badge/leetcode-ritik9802official-brown)](https://leetcode.com/u/ritik9802official/)
 
-<a href="https://www.buymeacoffee.com/shrutidubeyey"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="buymeacoffee.com/shrutidubeyey" /></a>
 ![Data Data Everywhere GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmozMnV3ZGxlN25kcHd1bjcyOWVreGswNnZ0ZWhibjgwdjdjNmx4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9C25UNTwfZuk85WP/giphy-downsized.gif)

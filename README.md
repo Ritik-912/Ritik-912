@@ -14,10 +14,7 @@ A passionate **Data Scientist** and ***LLM Expert*** with a strong interest in *
 
 # [![Resume📄](https://img.shields.io/badge/Curriculum_Vitae_%20📄-8A2BE2)](https://ritik-912.github.io/Ritik-912/resume.html)
 
-## 📚💫
-The leveraging of open source technologies to enhance the financial and legal domains using Data Science and AI is currently I am focused on.
-
-## 🤝
+## 📚💫🤝
 [![Kaggle](https://img.shields.io/badge/-ritikkumar2212-white?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/ritikkumar2212)
 [![Linkedin: Ritik Kumar](https://img.shields.io/badge/-Ritik%20Kumar-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ritik-kumar-886a1422b/)](https://www.linkedin.com/in/ritik-kumar-886a1422b/)
 [![GitHub: Ritik-912](https://img.shields.io/github/followers/Ritik-912?label=Follow&style=social)](https://github.com/Ritik-912/)

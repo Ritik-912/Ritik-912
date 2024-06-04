@@ -1,7 +1,5 @@
 ## Data Scientist & AI Enthusiast 🤖
-
-![Data GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2I5YmttZ3ZmbnV4M285Ym8wNmw2OGhxeTZoMHc0eHcwcXA0ZzMycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jakQnxhPwrbOdEZDul/giphy.gif)
-
+![github-stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Ritik-912&show_icons=true&theme=algolia&count_private=true&hide_title=true)
 #
 
 A passionate **Data Scientist** and ***LLM Expert*** with a strong interest in **AI** and ***machine learning***. 🤖
@@ -33,5 +31,3 @@ The leveraging of open source technologies to enhance the financial and legal do
 [![CodeChef](https://img.shields.io/badge/-ritik912129-purple?style=for-the-badge&logo=codechef)](https://www.codechef.com/users/ritik912129)
 [![GeeksforGeeks](https://img.shields.io/badge/-ritik9802official-black?style=for-the-badge&logo=geeksforgeeks)](https://www.geeksforgeeks.org/user/ritik9802official/)
 [![LeetCode](https://img.shields.io/badge/leetcode-ritik9802official-brown)](https://leetcode.com/u/ritik9802official/)
-
-![Data Data Everywhere GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmozMnV3ZGxlN25kcHd1bjcyOWVreGswNnZ0ZWhibjgwdjdjNmx4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9C25UNTwfZuk85WP/giphy-downsized.gif)

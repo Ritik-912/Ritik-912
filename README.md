@@ -1,5 +1,8 @@
 ## Data Scientist & AI Enthusiast 🤖
 ![github-stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Ritik-912&show_icons=true&theme=algolia&count_private=true&hide_title=true)
+
+![github stats overview](https://github.com/Ritik-912/github-stats/blob/output/generated/overview.svg)
+![github stats languages](https://github.com/Ritik-912/github-stats/blob/output/generated/languages.svg)
 #
 
 A passionate **Data Scientist** and ***LLM Expert*** with a strong interest in **AI** and ***machine learning***. 🤖

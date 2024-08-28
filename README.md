@@ -1,23 +1,16 @@
-## Data Scientist & AI Enthusiast 🤖
+## 🤖
+
 ![github-stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Ritik-912&show_icons=true&theme=algolia&count_private=true&hide_title=true)
 
-![github stats overview](https://github.com/Ritik-912/github-stats/blob/output/generated/overview.svg)
-![github stats languages](https://github.com/Ritik-912/github-stats/blob/output/generated/languages.svg)
-#
 
-A passionate **Data Scientist** and ***LLM Expert*** with a strong interest in **AI** and ***machine learning***. 🤖
+![github stats overview](https://github.com/Ritik-912/github-stats/blob/output/generated/overview.svg)    ![github stats languages](https://github.com/Ritik-912/github-stats/blob/output/generated/languages.svg)
 
-**Projects**
-- [![First Android App](https://img.shields.io/badge/First%20Android%20App-Greeting_Message-pink)](https://github.com/shruti-ritik/ShareCare)
-- [![llama3 Fine Tuning](https://img.shields.io/badge/llama3_fine%20tuning%20on-Trillion_Dollar_Words_Dataset-white)](https://www.kaggle.com/code/ritikkumar2212/llama3-hawkish-dovish)
-- [![Amazon Product Report Maker](https://img.shields.io/badge/Amazon%20Product%20Research_Report_Generator-orange)](https://github.com/shruti-ritik/amazon-product-report-maker)
-- [![Fraud Detection Machine Learning model](https://img.shields.io/badge/Fraud_Detection_Notebook-yellow)](https://github.com/Ritik-912/Fraud-Detection)
-- [![Ai Legal Assistant](https://img.shields.io/badge/AI_Legal-Assistant-blue)](https://github.com/shruti-ritik/AI-legal-word-document-assistant)
-- [![Time Table generator](https://img.shields.io/badge/Time_Table-Generator-green)](https://github.com/Ritik-912/TimeTable-Generator)
 
 # [![Resume📄](https://img.shields.io/badge/Curriculum_Vitae_%20📄-8A2BE2)](https://ritik-912.github.io/Ritik-912/resume.html)
 
-## 📚💫🤝
+
+📚💫🤝
+
 [![Kaggle](https://img.shields.io/badge/-ritikkumar2212-white?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/ritikkumar2212)
 [![Linkedin: Ritik Kumar](https://img.shields.io/badge/-Ritik%20Kumar-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ritik-kumar-886a1422b/)](https://www.linkedin.com/in/ritik-kumar-886a1422b/)
 [![GitHub: Ritik-912](https://img.shields.io/github/followers/Ritik-912?label=Follow&style=social)](https://github.com/Ritik-912/)
